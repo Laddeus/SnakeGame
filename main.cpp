@@ -245,7 +245,7 @@ void Logic() {
 			}
 
 	}
-	else { // going through walls
+	else { // going through walls !
 
 		if (y <= 0 || y >= height)
 			y = y == 0 ? (height - 1) : 1;
